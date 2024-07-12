@@ -28,7 +28,10 @@ function Header() {
             {/* NavBar Full Page */}
             <ul className="hidden md:flex relative w-auto top-0">
               <li className="px-3">
-                <HashLink to="/" className="hover:text-green-800 font-bold">
+                <HashLink
+                  to="/#home"
+                  className="hover:text-green-800 font-bold"
+                >
                   Home
                 </HashLink>
               </li>
@@ -66,7 +69,7 @@ function Header() {
               </li>
               <li className="px-3">
                 <HashLink
-                  to="/#join"
+                  to="/join"
                   className="hover:text-white hover:bg-green-800 font-bold rounded-xl bg-white border-2 border-green-800 p-3"
                 >
                   Daftar Sekarang
@@ -123,7 +126,7 @@ function Header() {
               </li>
               <li className="p-2 bg-green-800 rounded-2xl">
                 <HashLink
-                  to="/#join"
+                  to="/join"
                   className="font-bold  bg-green-800 text-white"
                   onClick={tampilMenu}
                 >

@@ -37,7 +37,10 @@ function Footer() {
                   Hubungi Kami :
                 </h3>
                 <div className="items-center text-green-800  text-3xl flex bg-white rounded-xl md:mx-24 py-2">
-                  <a href="wa.me/6285259804977" className="flex mx-auto ">
+                  <a
+                    href="https://wa.me/6285259804977"
+                    className="flex mx-auto "
+                  >
                     <FaWhatsapp />
                     <p className="text-2xl font-bold md:ml-3 mt-auto">
                       WhatsApp
@@ -46,7 +49,7 @@ function Footer() {
                 </div>
                 <div className="bg-white rounded-xl md:mx-24  mt-2 items-center text-green-800  text-3xl flex">
                   <a
-                    href="instagram/"
+                    href="https://instagram.com/pondokalhasan"
                     className="flex mx-auto bg-white rounded-xl p-2"
                   >
                     <FaInstagram />
@@ -57,7 +60,7 @@ function Footer() {
                 </div>
                 <div className="mt-2 bg-white rounded-xl md:mx-24 items-center text-green-800  text-3xl flex">
                   <a
-                    href="instagram/"
+                    href="https://facebook.com/pondokalhasan"
                     className="flex mx-auto bg-white rounded-xl p-2"
                   >
                     <FaFacebook />

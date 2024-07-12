@@ -20,12 +20,12 @@ function Jumbotron() {
               juga mendalami kitab kuning yang merujuk pada Madzhab Syafi'i
             </p>
             <p className="text-center mt-5">
-              <a
-                href=""
+              <Link
+                to="/join"
                 className="font-bold mx-auto rounded-xl mt-5 text-white bg-green-800 text-center p-2 hover:bg-white hover:text-green-800 hover:shadow-xl hover:border-2 hover:border-green-800"
               >
                 Daftar Sekarang
-              </a>
+              </Link>
             </p>
           </div>
         </div>

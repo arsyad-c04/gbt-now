@@ -44,7 +44,7 @@ function Profile() {
                 <li>
                   <a
                     className="text-white text-3xl hover:text-red-700"
-                    href="https://youtube.com/pondokalhasan"
+                    href="https://youtube.com/@pondokal-hasan"
                   >
                     {" "}
                     <FaYoutube />
